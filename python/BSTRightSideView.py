@@ -8,6 +8,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
+# BFS solution: LEVEL ORDER TRAVERSAL
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         if root is None:
@@ -31,6 +32,27 @@ class Solution:
                 if curr.right:
                     queue.append(curr.right)
 
+        return ans
+    
+# DFS solution: REVERSE PRE ORDER TRAVERSAL    
+class Solution:
+    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        if root is None:
+            return []
+
+        ans = []
+
+        def rev_pre_order(node, level):
+            if node is None:
+                return 
+
+            if level == len(ans):
+                ans.append(node.val)
+
+            rev_pre_order(node.right, level + 1)
+            rev_pre_order(node.left, level + 1)
+
+        rev_pre_order(root, 0)
         return ans
     
     

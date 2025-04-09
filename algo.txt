@@ -1,0 +1,73 @@
+Sorting Algorithms
+
+Quick Sort - Divide-and-conquer, efficient for most cases.
+Merge Sort - Stable, divide-and-conquer, works well for linked lists.
+Heap Sort - Based on a binary heap, in-place sorting.
+Bubble Sort - Simple but inefficient; used for teaching purposes.
+Insertion Sort - Simple for small or nearly sorted datasets.
+Selection Sort - In-place, simple but inefficient.
+
+Searching Algorithms
+
+Binary Search - Efficient for sorted arrays (O(log n)).
+Linear Search - Simple, used for unsorted arrays (O(n)).
+Graph Algorithms
+Depth-First Search (DFS) - For traversing or searching tree/graph data structures.
+Breadth-First Search (BFS) - Useful for shortest path in unweighted graphs.
+Dijkstra’s Algorithm - Shortest path in weighted graphs.
+Bellman-Ford Algorithm - Handles negative weights in graphs.
+Floyd-Warshall Algorithm - All-pairs shortest paths.
+Kruskal’s Algorithm - Minimum spanning tree using union-find.
+Prim’s Algorithm - Minimum spanning tree using a priority queue.
+Topological Sort - Ordering of vertices in a directed acyclic graph (DAG).
+
+Dynamic Programming
+
+Knapsack Problem (0/1) - Solving subset sum problems.
+Longest Common Subsequence (LCS) - Find common patterns.
+Longest Increasing Subsequence (LIS) - Common in array problems.
+Fibonacci Sequence - Classic DP example.
+Matrix Chain Multiplication - Optimization problem.
+Coin Change Problem - Ways to make a sum with coins.
+Edit Distance - Minimum operations to convert one string to another.
+Subset Sum Problem - Check if a subset adds up to a target value.
+
+Greedy Algorithms
+
+Huffman Coding - Data compression.
+Activity Selection Problem - Maximizing tasks in a schedule.
+Greedy Interval Scheduling - Find maximum intervals without overlap.
+Divide-and-Conquer Algorithms
+Binary Search - Already mentioned above.
+Merge Sort - Already mentioned above.
+Quick Sort - Already mentioned above.
+Maximum Subarray Problem - Using Kadane’s Algorithm.
+
+Backtracking
+
+N-Queens Problem - Place queens on a chessboard.
+Sudoku Solver - Fill the Sudoku grid.
+Maze Solving - Find paths in a maze.
+Permutations and Combinations - Generate all arrangements.
+Word Search - Searching for words in a grid.
+String Algorithms
+KMP Algorithm - Efficient substring search.
+Rabin-Karp Algorithm - Hashing for substring search.
+Z-Algorithm - Pattern matching in strings.
+Manacher’s Algorithm - Longest palindromic substring.
+Trie - Data structure for storing strings efficiently.
+
+Mathematical Algorithms
+
+Euclidean Algorithm - Finding GCD of two numbers.
+Sieve of Eratosthenes - Generate prime numbers.
+Modular Exponentiation - Efficient power calculations.
+Fast Fourier Transform (FFT) - Polynomial multiplication.
+
+Other Important Algorithms
+
+Union-Find (Disjoint Set) - Connected components in a graph.
+Sliding Window Technique - Efficient for subarray problems.
+Two Pointer Technique - Solves sorted array problems efficiently.
+Kadane’s Algorithm - Maximum sum subarray.
+Reservoir Sampling - Random sampling from a stream.
